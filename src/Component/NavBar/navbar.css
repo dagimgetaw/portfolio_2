@@ -23,10 +23,11 @@ nav .nav_item ul {
 }
 nav .nav_item ul li {
   padding-left: 3rem;
+  overflow-y: hidden;
 }
 nav .nav_item ul li a {
   color: var(--clr-white);
-  font-family: var(--font-title);
+  font-family: var(--font-text);
   font-size: 1rem;
 }
 nav .nav_item ul li a:hover {
@@ -41,7 +42,7 @@ nav .nav_item_toggle {
     display: none;
   }
   nav .nav_toggle {
-    display: inline-block;
+    display: flex;
     font-size: 2rem;
     margin-left: auto;
     font-weight: bold;
@@ -51,19 +52,32 @@ nav .nav_item_toggle {
   nav .nav_item_toggle {
     display: flex;
     justify-content: center;
+    padding-top: 2rem;
   }
   nav .nav_item_toggle ul {
     display: flex;
   }
   nav .nav_item_toggle ul li {
     padding-left: 3rem;
+    overflow-y: hidden;
   }
   nav .nav_item_toggle ul li a {
     color: var(--clr-white);
-    font-family: var(--font-title);
+    font-family: var(--font-text);
     font-size: 1rem;
   }
   nav .nav_item_toggle ul li a:hover {
     border-bottom: 3px solid var(--clr-white);
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    padding: 1rem 2rem;
+  }
+  nav .nav_item_toggle {
+    padding-top: 1rem;
+  }
+  nav .nav_item_toggle ul li {
+    padding-left: 1rem;
   }
 }

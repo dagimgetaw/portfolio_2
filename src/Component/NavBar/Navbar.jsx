@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="nav_logo">
           <h1>
-            <a href="">dagim</a>
+            <a href="">dagimgetaw</a>
           </h1>
         </div>
         <div className="nav_item">
