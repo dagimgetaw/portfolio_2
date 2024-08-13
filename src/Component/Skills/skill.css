@@ -1,0 +1,68 @@
+.skill {
+  background-color: var(--clr-black);
+  padding: 0 10rem 5rem;
+  height: 45rem;
+  width: 100%;
+  overflow-y: hidden;
+}
+.skill h2 {
+  color: var(--clr-white);
+  font-family: var(--font-text);
+  text-align: center;
+  font-size: 2em;
+  padding-top: 5rem;
+}
+.skill .skill_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.skill .skill_type {
+  text-align: center;
+}
+.skill .skill_type p {
+  color: var(--clr-white);
+  font-family: var(--font-text);
+  font-size: 1.3rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.skill .skill_type ul li {
+  color: var(--clr-grey);
+  font-family: var(--font-text);
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+@media (max-width: 900px) {
+  .skill {
+    padding: 0 5rem 5rem;
+  }
+}
+@media (max-width: 600px) {
+  .skill {
+    height: 60rem;
+  }
+  .skill .skill_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .skill {
+    padding: 0 5rem 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .skill {
+    height: 65rem;
+  }
+  .skill .skill_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 310px) {
+  .skill {
+    height: 85rem;
+  }
+  .skill .skill_list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
