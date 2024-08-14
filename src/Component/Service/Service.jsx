@@ -1,9 +1,10 @@
 import "./service.css";
 import { FaGlobe, FaMobileAlt, FaChalkboardTeacher } from "react-icons/fa";
 
-const Service = () => {
+// eslint-disable-next-line react/prop-types
+const Service = ({ color }) => {
   return (
-    <div className="service">
+    <div className={color ? "service dark_theme" : "service light_theme"}>
       <div className="service_form">
         <h2>WHAT I CAN DO FOR YOU?</h2>
         <p>

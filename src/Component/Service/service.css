@@ -94,6 +94,9 @@
   }
 }
 @media (max-width: 570px) {
+  .service {
+    height: 55rem;
+  }
   .service_container .box:last-child {
     margin: 0 9rem;
   }
@@ -106,7 +109,7 @@
 @media (max-width: 500px) {
   .service {
     padding: 0 2rem;
-    height: 70rem;
+    height: 60rem;
   }
   .service_container {
     display: grid;
@@ -129,6 +132,12 @@
     margin: 0 5rem;
   }
 }
+@media (max-width: 475px) {
+  .service {
+    padding: 0 2rem;
+    height: 65rem;
+  }
+}
 @media (max-width: 440px) {
   .service_container .box {
     margin: 0 3rem;
@@ -139,9 +148,14 @@
 }
 @media (max-width: 400px) {
   .service_container .box {
-    margin: 0 2rem;
+    margin: 0 auto;
   }
   .service_container .box:last-child {
-    margin: 0 2rem;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 350px) {
+  .service {
+    height: 70rem;
   }
 }
