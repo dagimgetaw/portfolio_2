@@ -3,7 +3,9 @@ nav {
   padding: 1rem 5rem;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.902);
+  backdrop-filter: blur(5px);
   transition: background-color 0.3s ease;
+  z-index: 9;
 }
 .navbar {
   display: flex;
