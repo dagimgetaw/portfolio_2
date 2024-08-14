@@ -1,8 +1,9 @@
 import "./home.css";
 
-const Home = () => {
+// eslint-disable-next-line react/prop-types
+const Home = ({ color }) => {
   return (
-    <div className="home">
+    <div className={color ? "home dark_theme" : "home light_theme"}>
       <div className="title">
         <h2>
           <span>Dagim Getaw</span>, a software engineer.
