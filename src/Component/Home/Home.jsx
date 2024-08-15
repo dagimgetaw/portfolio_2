@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import "./home.css";
 
 // eslint-disable-next-line react/prop-types
 const Home = ({ color }) => {
   return (
-    <div className={color ? "home dark_theme" : "home light_theme"}>
+    <div className={color ? "home dark_theme" : "home light_theme"} id="home">
       <div className="title">
         <h2>
           <span>Dagim Getaw</span>, a software engineer.
@@ -14,10 +15,17 @@ const Home = ({ color }) => {
         </p>
         <div className="link">
           <button>
-            <a href="">View Resume</a>
+            <Link to={"/resume"} target="_blank">
+              View Resume
+            </Link>
           </button>
           <button>
-            <a href="">Hire me</a>
+            <Link
+              to="https://www.upwork.com/freelancers/~0131ed92dbfad66547"
+              target="_blank"
+            >
+              Hire me
+            </Link>
           </button>
         </div>
       </div>
