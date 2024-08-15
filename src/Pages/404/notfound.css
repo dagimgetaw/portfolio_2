@@ -1,0 +1,38 @@
+.notfound {
+  background-color: var(--clr-black);
+  padding: 5rem 10rem 0rem;
+  overflow-y: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-text);
+}
+.notfound h2 {
+  color: var(--clr-white);
+  font-weight: bold;
+  font-size: 5rem;
+}
+.notfound p {
+  color: var(--clr-white);
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.notfound button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 2rem;
+  padding: 0.8rem 3rem;
+  background-color: var(--clr-white);
+}
+.notfound button .go_to_home {
+  color: var(--clr-black);
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  .notfound {
+    padding: 0rem;
+  }
+}
