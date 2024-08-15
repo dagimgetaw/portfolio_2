@@ -31,7 +31,10 @@ const Portfolio = ({ color }) => {
   };
 
   return (
-    <div className={color ? "portfolio dark_theme" : "portfolio light_theme"}>
+    <div
+      className={color ? "portfolio dark_theme" : "portfolio light_theme"}
+      id="project"
+    >
       <h2>Projects</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
