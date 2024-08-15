@@ -3,7 +3,10 @@ import "./skill.css";
 // eslint-disable-next-line react/prop-types
 const Skill = ({ color }) => {
   return (
-    <div className={color ? "skill dark_theme" : "skill light_theme"}>
+    <div
+      className={color ? "skill dark_theme" : "skill light_theme"}
+      id="skill"
+    >
       <h2>Skills</h2>
       <div className="skill_list">
         <div className="skill_type">
