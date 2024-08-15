@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 
 // eslint-disable-next-line react/prop-types
-const Link = ({ color, setColor }) => {
+const Links = ({ color, setColor }) => {
   const handleClick = () => {
     setColor(!color);
   };
@@ -37,4 +37,4 @@ const Link = ({ color, setColor }) => {
   );
 };
 
-export default Link;
+export default Links;
