@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -14,25 +15,25 @@ const Navbar = () => {
       <div className="navbar">
         <div className="nav_logo">
           <h1>
-            <a href="">dagimgetaw</a>
+            <Link to={"/"}>dagimgetaw</Link>
           </h1>
         </div>
         <div className="nav_item">
           <ul>
             <li>
-              <a href="">Home</a>
+              <Link to={"/#home"}>Home</Link>
             </li>
             <li>
-              <a href="">Service</a>
+              <Link to={"/#service"}>Service</Link>
             </li>
             <li>
-              <a href="">Skill</a>
+              <Link to={"/#skill"}>Skill</Link>
             </li>
             <li>
-              <a href="">Project</a>
+              <Link to={"/#project"}>Project</Link>
             </li>
             <li>
-              <a href="">Contact</a>
+              <Link to={"/#contact"}>Contact</Link>
             </li>
           </ul>
         </div>
@@ -46,19 +47,19 @@ const Navbar = () => {
         <div className="nav_item_toggle">
           <ul>
             <li>
-              <a href="">Home</a>
+              <Link to={"/#home"}>Home</Link>
             </li>
             <li>
-              <a href="">Service</a>
+              <Link to={"/#service"}>Service</Link>
             </li>
             <li>
-              <a href="">Skill</a>
+              <Link to={"/#skill"}>Skill</Link>
             </li>
             <li>
-              <a href="">Project</a>
+              <Link to={"/#project"}>Project</Link>
             </li>
             <li>
-              <a href="">Contact</a>
+              <Link to={"/#contact"}>Contact</Link>
             </li>
           </ul>
         </div>
