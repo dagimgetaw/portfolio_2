@@ -10,7 +10,10 @@ import "./contact.css";
 // eslint-disable-next-line react/prop-types
 const Contact = ({ color }) => {
   return (
-    <div className={color ? "contact dark_theme" : "contact light_theme"}>
+    <div
+      className={color ? "contact dark_theme" : "contact light_theme"}
+      id="contact"
+    >
       <div className="contact_page">
         <h2>CONTACT WITH ME.</h2>
         <div className="contact_tag">
@@ -36,7 +39,7 @@ const Contact = ({ color }) => {
           <input type="text" placeholder="Email" />
         </div>
         <div className="box">
-          <FaPen className="link" />
+          <FaPen className="link2" />
           {/* <input type="text" placeholder="Message" /> */}
           <textarea
             name=""

@@ -40,6 +40,9 @@
   border: none;
   outline: none;
   margin-bottom: 1rem;
+  color: var(--clr-black);
+  font-family: var(--font-text);
+  font-size: 1rem;
 }
 .contact_form .box textarea {
   width: 100%;
@@ -50,11 +53,14 @@
   outline: none;
   background-color: var(--clr-white);
   color: var(--clr-black);
+  font-family: var(--font-text);
+  font-size: 1rem;
 }
 .contact_form .box input::placeholder,
 .contact_form .box textarea::placeholder {
   font-family: var(--font-text);
   color: var(--clr-black);
+  font-size: 1rem;
 }
 .contact_form .box {
   display: flex;
@@ -64,7 +70,13 @@
 .contact_form .link {
   color: var(--clr-grey);
   position: absolute;
-  top: 1rem;
+  top: 0.8rem;
+  left: 1.5rem;
+}
+.contact_form .link2 {
+  color: var(--clr-grey);
+  position: absolute;
+  top: 1.4rem;
   left: 1.5rem;
 }
 .contact_form button {
