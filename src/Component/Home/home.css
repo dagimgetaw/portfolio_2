@@ -11,6 +11,7 @@
   font-weight: bold;
   padding-bottom: 2rem;
   font-size: 2rem;
+  padding-top: 3rem;
 }
 .home .title h2 span {
   border-bottom: 3px solid var(--clr-white);
