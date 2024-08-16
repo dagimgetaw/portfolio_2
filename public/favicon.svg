@@ -1,4 +1,9 @@
-<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="25" cy="25" r="20" fill="black"/>
-<path d="M22.9688 16.625H27.0312C29.0417 16.625 30.5938 18.1771 30.5938 20.1875C30.5938 22.1979 29.0417 23.75 27.0312 23.75H22.9688V16.625ZM22.9688 24.625H26.8438C28.6354 24.625 30.0063 26.0958 30.0063 27.8875C30.0063 29.6792 28.6354 31.15 26.8438 31.15H22.9688V24.625Z" fill="white"/>
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black Circle -->
+  <circle cx="50" cy="50" r="50" fill="black" />
+  
+  <!-- White letter "d" -->
+  <text x="50%" y="50%" font-family="Arial" font-size="50" fill="white" text-anchor="middle" dominant-baseline="middle">
+    d
+  </text>
 </svg>
