@@ -70,7 +70,7 @@
 .contact_form .link {
   color: var(--clr-grey);
   position: absolute;
-  top: 0.8rem;
+  top: 1rem;
   left: 1.5rem;
 }
 .contact_form .link2 {
