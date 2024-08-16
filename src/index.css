@@ -41,21 +41,3 @@ a {
 ul li {
   list-style: none;
 }
-.sun_one {
-  background-color: var(--clr-platinum);
-}
-.sun_two {
-  background-color: var(--clr-white);
-}
-.moon_one {
-  background-color: var(--clr-black);
-}
-.moon_two {
-  background-color: var(--clr-night);
-}
-.sun_text {
-  color: var(--clr-black);
-}
-.moon_text {
-  color: var(--clr-white);
-}
