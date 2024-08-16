@@ -1,7 +1,7 @@
 .contact {
   background-color: var(--clr-black);
   padding: 0 10rem 5rem;
-  height: 35rem;
+  height: 40rem;
   width: 100%;
   overflow-y: hidden;
   display: grid;
@@ -88,6 +88,7 @@
   font-weight: bold;
   padding: 0.8rem 0;
   background-color: var(--clr-white);
+  font-family: var(--font-text);
 }
 @media (max-width: 900px) {
   .contact {
