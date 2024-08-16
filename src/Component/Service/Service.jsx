@@ -22,8 +22,8 @@ const Service = ({ color }) => {
             <span>WEB DESIGN</span>
           </p>
           <p className="service_para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur
-            adipiscing elit
+            Skilled in building responsive, user-friendly websites and web
+            applications, demonstrating versatile web development expertise.
           </p>
         </div>
         <div className="box">
@@ -32,8 +32,9 @@ const Service = ({ color }) => {
             <span>APP DEVELOPMENT</span>
           </p>
           <p className="service_para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur
-            adipiscing elit
+            Proficient in developing mobile-friendly applications for both iOS
+            and Android platforms, leveraging modern frameworks and best
+            practices.
           </p>
         </div>
         <div className="box">
@@ -42,8 +43,8 @@ const Service = ({ color }) => {
             <span>TRAINER</span>
           </p>
           <p className="service_para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur
-            adipiscing elit
+            Experienced in providing instructional content and mentoring others
+            in web development, sharing knowledge to foster skill growth.
           </p>
         </div>
       </div>

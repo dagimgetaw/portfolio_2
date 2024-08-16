@@ -59,6 +59,32 @@
   align-items: center;
   cursor: pointer;
 }
+.search_code {
+  color: var(--clr-white);
+}
+.displayed_img {
+  width: 100%;
+  padding-top: 5rem;
+}
+.close_button {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--clr-white);
+  z-index: 1001;
+}
+.white_close {
+  color: var(--clr-white);
+}
+.full_screen_img {
+  margin: auto;
+  overflow-x: hidden;
+  padding: 5rem;
+}
 @media (max-width: 900px) {
   .portfolio {
     padding: 0 5rem 5rem;
